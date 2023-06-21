@@ -4,10 +4,24 @@
  */
 package com.mycompany.tcodeuml;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author marle
  */
 public class Estudiante {
     
+    private List<Curso> cursosInscrito = new ArrayList();
+    private List<Curso> cursosEnEsperaDeInscripcion = new ArrayList();
+
+    
+    public void solicitarInscripcion(Curso curso){
+        
+    }
+    
+    public void realizarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){
+        
+    }
 }

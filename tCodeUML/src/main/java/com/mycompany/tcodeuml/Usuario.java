@@ -4,6 +4,9 @@
  */
 package com.mycompany.tcodeuml;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author CltControl
@@ -13,7 +16,7 @@ public class Usuario {
     protected String contraseña;
     protected String nombre;
     protected String apellido;
-    
+    public List<Incidente> incidentes = new ArrayList();
     protected boolean login(){
         return true;
     }
