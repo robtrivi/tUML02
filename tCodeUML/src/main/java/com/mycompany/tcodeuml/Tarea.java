@@ -10,6 +10,6 @@ import java.util.Date;
  *
  * @author marle
  */
-public class Tarea {
+public class Tarea extends ActividadSumativa{
     private Date fechaPublicacion;
 }

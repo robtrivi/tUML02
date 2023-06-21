@@ -8,6 +8,6 @@ package com.mycompany.tcodeuml;
  *
  * @author marle
  */
-public class Evaluacion {
+public class Evaluacion extends ActividadSumativa{
     private int LimiteTiempo;
 }
