@@ -12,6 +12,7 @@ import java.util.List;
  * @author CltControl
  */
 public class Usuario {
+    
     protected String usuario;
     protected String contraseña;
     protected String nombre;
@@ -22,5 +23,16 @@ public class Usuario {
     }
     protected boolean logOut(){
         return true;
+    }
+
+    public Usuario(String usuario, String contraseña, String nombre, String apellido) {
+        this.usuario = usuario;
+        this.contraseña = contraseña;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+    
+    public Usuario(){
+        
     }
 }
