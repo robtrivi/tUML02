@@ -21,4 +21,11 @@ public class Adminstrador extends Usuario{
     public void asignarResponable(Curso curso, Profesor responsable){
         
     }
+
+    public Adminstrador(String usuario, String contraseña, String nombre, String apellido) {
+        super(usuario, contraseña, nombre, apellido);
+    }
+
+    public Adminstrador() {
+    }
 }

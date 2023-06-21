@@ -13,4 +13,12 @@ public class Foro {
     private String tematica;
     private int numeroComentarios;
     private Curso cursoAsignado;
+
+    public Foro(String id, String tematica, int numeroComentarios, Curso cursoAsignado) {
+        this.id = id;
+        this.tematica = tematica;
+        this.numeroComentarios = numeroComentarios;
+        this.cursoAsignado = cursoAsignado;
+    }
+    
 }

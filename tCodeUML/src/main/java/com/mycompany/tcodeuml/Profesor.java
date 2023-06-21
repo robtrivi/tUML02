@@ -30,4 +30,8 @@ public class Profesor extends PersonalAcademico{
     public void crearNuevoForo(Foro foro){
         
     }
+
+    public Profesor() {
+    }
+    
 }

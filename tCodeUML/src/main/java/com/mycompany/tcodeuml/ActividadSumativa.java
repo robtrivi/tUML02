@@ -5,7 +5,7 @@
 package com.mycompany.tcodeuml;
 
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /**
  *
@@ -13,11 +13,12 @@ import java.util.Date;
  */
 public abstract class ActividadSumativa {
     protected String titulo;
-    protected Date fechaDeEntrega;
+    protected LocalDateTime fechaDeEntrega;
     protected float puntajeMaximo;
     protected String contenido;
     protected float calificacion;
     protected String id;
+
     
   
 }

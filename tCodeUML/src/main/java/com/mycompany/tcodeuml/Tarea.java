@@ -4,12 +4,12 @@
  */
 package com.mycompany.tcodeuml;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /**
  *
  * @author marle
  */
 public class Tarea extends ActividadSumativa{
-    private Date fechaPublicacion;
+    private LocalDateTime fechaPublicacion;
 }

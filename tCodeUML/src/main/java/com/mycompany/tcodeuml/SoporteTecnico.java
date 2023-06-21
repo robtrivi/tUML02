@@ -19,4 +19,12 @@ public class SoporteTecnico extends Usuario{
     public void derivarProblemaDeGestion(Adminstrador adminstrador){
         
     }
+
+    public SoporteTecnico(String usuario, String contraseña, String nombre, String apellido) {
+        super(usuario, contraseña, nombre, apellido);
+    }
+
+    public SoporteTecnico() {
+    }
+    
 }

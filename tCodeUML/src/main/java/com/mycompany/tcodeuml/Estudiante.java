@@ -24,4 +24,8 @@ public class Estudiante {
     public void realizarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){
         
     }
+
+    public Estudiante() {
+    }
+    
 }
